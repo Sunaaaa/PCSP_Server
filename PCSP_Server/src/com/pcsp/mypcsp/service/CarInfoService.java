@@ -13,7 +13,7 @@ public class CarInfoService {
       
       try {
          con = common.DBTemplate2.getConnection();
-         System.out.println("MYSQL DATABASE con 가져옴! , con : "+ con.toString());
+         System.out.println("MYSQL DATABASE con 가져옴!!!!!!!!! , con : "+ con.toString());
          CarInfoDAO dao = new CarInfoDAO(con);
          
          // 여기 이상함.......................................................
