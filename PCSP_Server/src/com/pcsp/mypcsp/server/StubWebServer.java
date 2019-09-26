@@ -19,7 +19,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+
 import com.pcsp.mypcsp.service.UserService;
 import com.pcsp.mypcsp.stubwebserver.info.CarInfo;
 import com.pcsp.mypcsp.vo.UserVO;
@@ -193,7 +193,7 @@ class YouJaClientRunnable implements Runnable {
 		System.out.println("클라이언트 쓰래드가 돌고 있어요~");
 		
 		try {
-			System.out.println("db접속 제발");
+			
 						
 			while ((line = br.readLine()) != null) {
 				System.out.println("클라이언트 데이터 받음 : " + line);
