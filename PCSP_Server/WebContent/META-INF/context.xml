@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Default set of monitored resources -->
+    <!-- 데이터 베이스 Resource에 대한 설정 -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Resource type="javax.sql.DataSource" 
+			  name="jdbc/mySQLDB" auth="Container"
+			  username="root" 
+			  password="root" 
+			  driverClassName="com.mysql.jdbc.Driver"
+			  url="jdbc:mysql://70.12.115.72:3306/pcsp?characterEncoding=UTF-8" />
+</Context>
