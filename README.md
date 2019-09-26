@@ -44,9 +44,9 @@ CAN 통신을 이용한 P2P Car Sharing Platform : PCSP 서비스 구현
 - APP/ANDROID/
   <br>
 
-#### 안드로이드에서 로그인 성공 후 userID알려주기
+#### 안드로이드에서 로그인 성공 후 userNum알려주기
 
-- APP/USERID/userID
+- APP/USERNum/userNum
   <br>
 
 #### 안드로이드에서 키를 요청할때 (모든 조건 충족시) 
