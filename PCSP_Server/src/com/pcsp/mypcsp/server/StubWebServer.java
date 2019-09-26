@@ -227,9 +227,8 @@ class YouJaClientRunnable implements Runnable {
 						}
 						out.flush();
 					
-						
-					}
-					else if (protocol.equals("CARREGISTER")) {
+										
+					} else if (protocol.equals("CARREGISTER")) {
 
 						String dataArr[] = data.split(",");
 						carInfo.setCarNum(dataArr[2]);
