@@ -93,7 +93,9 @@ CAN 통신을 이용한 P2P Car Sharing Platform : PCSP 서비스 구현
 - ANDROID/LOGIN/OK
 - ANDROID/LOGIN/FAIL
   <br>
-
+#### 지도에 찍을 차량데이터 주기(로그인 할때 같이 줄게요)
+- ANDROID/CARLIST/carListLen/carNum,carName,carStatus,carLong,carLat,carRentFee,ImageURL@carNum,carName,carStatus,carLong,carLat,carRentFee,ImageURL@...
+  <br>
 #### 마커를 클릭해서 차리스트를 줄때 
 
 - ANDROID/
