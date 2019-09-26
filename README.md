@@ -21,7 +21,11 @@ CAN 통신을 이용한 P2P Car Sharing Platform : PCSP 서비스 구현
 
 - CAR/PANDA/
   <br>
+#### 라뗴 판다에서 로그인 할때
 
+- CAR/CARLOGIN/userID,PW
+  <br>
+  
 #### 라뗴 판다에서 로그인이 되었을때 CarNum알려주기
 
 - CAR/CARNUM/carNum
@@ -44,7 +48,7 @@ CAN 통신을 이용한 P2P Car Sharing Platform : PCSP 서비스 구현
 - APP/ANDROID/
   <br>
 
-#### 안드로이드에서 로그인 성공 후 userNum알려주기
+#### 안드로이드에서 로그인 성공 후 userNum알려주기 __삭제__
 
 - APP/USERNum/userNum
   <br>
