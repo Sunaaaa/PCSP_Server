@@ -24,7 +24,7 @@ public class DBTemplate2 {
             
 			Class.forName ("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection
-					("jdbc:mysql://localhost/pcsp","root","root");           	
+					("jdbc:mysql://70.12.115.72/pcsp","root","root");           	
             System.out.println("여기2 ");
                         
             
