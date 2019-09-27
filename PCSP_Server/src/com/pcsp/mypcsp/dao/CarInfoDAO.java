@@ -8,9 +8,7 @@ import com.pcsp.mypcsp.stubwebserver.info.CarInfo;
 
 
 public class CarInfoDAO {
-   private Connection con;
-   
-   
+   private Connection con;  
    
    public CarInfoDAO(Connection con) {
       super();
