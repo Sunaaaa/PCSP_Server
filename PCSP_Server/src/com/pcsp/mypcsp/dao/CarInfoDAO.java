@@ -20,7 +20,7 @@ public class CarInfoDAO {
    @SuppressWarnings("null")
    public ArrayList<CarInfo> getCarInfo(String carNum) {
       ArrayList<CarInfo> carInfoList = new ArrayList<CarInfo>();
-      
+      //ads
       //CarInfo carInfo = new CarInfo();
       try {
          
